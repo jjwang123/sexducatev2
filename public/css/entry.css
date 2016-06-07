@@ -297,12 +297,12 @@ h2{
     	text-align:center;
     }
 
-  #section1 img {
+  /*#section1 img {
     	float:none;
 		margin-bottom:20%;
 		border-radius: 30px;
 		display: block;
-	}
+	}*/
 	#s3container .container-fluid{
 		display:block;
 	}
