@@ -386,7 +386,7 @@ function printInfo(name, data) {
       $('#initialText').css('display', 'none');
       $('#stdInfoText').css('display', 'block');
       $('.communityName').text(name);
-      $('#numberOfCrimes').text(data[i].total);
+      $('#numberOfSTDs').text(data[i].total);
     }
   }
 }
