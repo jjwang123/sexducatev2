@@ -36,27 +36,6 @@ a:hover{
 	color:#4e4e4e;
 	text-decoration: none;
 }
-/*.navbar-right{
-	margin-right:40px;
-
-}
-.navbar-left.moveright{
-	margin-left:170px;
-	-webkit-transition: margin-left 0.3s;
-    -moz-transition: margin-left 0.3s;
-    -ms-transition: margin-left 0.3s;
-    -o-transition: margin-left 0.3s;
-    transition: margin-left 0.3s;
-}
-
-.navbar-left{
-	margin-left:0px;
-	-webkit-transition: margin-left 0.3s;
-    -moz-transition: margin-left 0.3s;
-    -ms-transition: margin-left 0.3s;
-    -o-transition: margin-left 0.3s;
-    transition: margin-left 0.3s;
-}*/
 #background{
 	background-size: cover;
 	background-image: url('/images/background.png');
@@ -146,19 +125,21 @@ h2{
 	font-weight: lighter;
 }
 #section2{
-	background-image: url('/images/sexducate.png');
-	background-color:#ffffff;
+	background-image: url('/images/figures.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color:#2e343d;
 	height: 100%;
 	width: 100%;
 	color:#4e4e4e;
-	vertical-align: middle;
 	font-size: 1.5em;
 	padding-top: 5%;
 	padding-bottom: 5%;
+	margin: 0;
 }
 #s2container{
 	position: relative;
-	width:80%;
+	width:100%;
 	text-align: center;
 }
 #s2container h2{
@@ -167,10 +148,12 @@ h2{
 	text-shadow: 2px 2px lightgrey;
 }
 #section3{
+	background-image: url('/images/global.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 100%;
 	width: 100%;
 	background-color:#2B2B2B;
-	/*background-image: url('/images/sexducate.png');*/
 	color:#fff;
 	vertical-align: middle;
 	font-size: 1.5em;
@@ -185,6 +168,29 @@ h2{
 #s3container h1{
 	text-align: center;
 }
+#section4{
+	background-image: url('/images/global2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	background-color:#2B2B2B;
+	color:#fff;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+#s4container{
+	position: relative;
+	width:80%;
+	text-align: center;
+	vertical-align: middle;
+	overflow: auto;
+}
+#s4container h1{
+	text-align: center;
+}
+
+
 
 
 
@@ -253,11 +259,11 @@ h2{
 
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #777;
+        color: #2e343d;
     }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
+        color: #2e343d;
     }
 }
 
