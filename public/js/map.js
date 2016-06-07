@@ -20,13 +20,13 @@ $.fn.scrollView = function () {
 }
 
 getGeographySTD = function(geography) {
-  d3.json('/geography/' + geography, function(err, data) {
+  d3.json("https://github.com/jjwang123/sexducatev2/blob/master/public/data/chlamydia.json", function(err, data) {
     if (err) {
       console.log(err);
       return;
     }
     makeDonutChart(data);
-    if(data.length > 0)
+    // if(data.length > 0)
       $("#donutChartModal").modal()
   });
 }
@@ -119,7 +119,7 @@ makeDonutChart = function(data) {
     legend.append('text')                                     // NEW
       .attr('x', legendRectSize + legendSpacing)              // NEW
       .attr('y', legendRectSize - legendSpacing)              // NEW
-      .text(function(d) { return d.charge_description; })
+      .text(function(d) { return d.properties.STD; })
       .attr("transform", "translate(" + 10 + "," + -15  + ")");
 
    g.append("text")
@@ -137,7 +137,7 @@ function makeMap(data) {
 
   // console.log(max);
 
-  var map = L.map('mapid', { zoomControl: false }).setView([32.969, -116.9], 9);
+  var map = L.map('mapid', { zoomControl: false }).setView([33.0, -117.], 9);
 
 
   L.tileLayer('https://api.mapbox.com/styles/v1/bangingwang/cioumudx5001lb3khj06aghd6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYmFuZ2luZ3dhbmciLCJhIjoiY2lvdW1lYW1hMDBzbHR6bTVkZmpjYjM1ZyJ9._LUYXba9i-VARARoqA4Wlg', {
@@ -263,7 +263,7 @@ function printInfo(name, data) {
 function mapColor(name, data, max) {
   var color = d3.scale.linear()
   .domain([0, .01, .2])
-  .range(["white", "lightblue", "darkblue"]);
+  .range(["white", "cyan", "darkblue"]);
 
   for(var i in data) {
     if( data[i].geography == name ) {
@@ -271,7 +271,7 @@ function mapColor(name, data, max) {
     }
   }
 
-  return "white";
+  return "darkred";
 }
 
 function donutColor(data) {

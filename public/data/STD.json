@@ -1,0 +1,830 @@
+{
+  "Alpine" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 0
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 106
+    }
+  ],
+  "Central San Diego" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 3568
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 370
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 1413
+    }
+  ],
+  "Pendleton" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 817
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 87
+    }
+  ],
+  "Poway" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 419
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 87
+    }
+  ],
+  "Harbison Crest/El Cajon" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 1955
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 262
+    }
+  ],
+  "La Mesa" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 794
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 127
+    }
+  ],
+  "Mountain Empire" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 56
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "Carlsbad" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 614
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 71
+    }
+  ],
+  "North Inland Region" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 4561
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 31
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 370
+    }
+  ],
+  "South Bay" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 2527
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 23
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 213
+    }
+  ],
+  "Pauma" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 67
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "North Coastal Region" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 6004
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 36
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 70
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 577
+    }
+  ],
+  "Vista" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 1453
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 121
+    }
+  ],
+  "Kearny Mesa" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 2251
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 53
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 368
+    }
+  ],
+  "San Dieguito" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 396
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 40
+    }
+  ],
+  "Coronado" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 265
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 32
+    }
+  ],
+  "Central Region" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 10731
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 563
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 92
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 2598
+    }
+  ],
+  "Valley Center" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 101
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "Unknown" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 0
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "Miramar" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 237
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "Fallbrook" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 394
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 32
+    }
+  ],
+  "Ramona" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 188
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "Sweetwater" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 889
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 86
+    }
+  ],
+  "Spring Valley" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 1074
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 130
+    }
+  ],
+  "Lakeside" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 378
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 27
+    }
+  ],
+  "Palomar‐Julian" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 0
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "El Cajon" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 1130
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 172
+    }
+  ],
+  "Southeastern San Diego" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 3551
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 35
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 461
+    }
+  ],
+  "Jamul" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 155
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "Anza‐Borrego Springs" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 0
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "Mid‐City" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 0
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "Del Mar‐Mira Mesa" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 927
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 101
+    }
+  ],
+  "North San Diego" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 753
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 71
+    }
+  ],
+  "Escondido" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 1842
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 138
+    }
+  ],
+  "Oceanside" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 2724
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 258
+    }
+  ],
+  "East Region" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 5424
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 52
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 683
+    }
+  ],
+  "San Marcos" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 763
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 56
+    }
+  ],
+  "Chula Vista" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 2488
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 37
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 203
+    }
+  ],
+  "Elliott‐Navajo" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 0
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "Coastal" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 1192
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 131
+    }
+  ],
+  "University" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 332
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 45
+    }
+  ],
+  "South Region" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 7273
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 85
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 147
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 637
+    }
+  ],
+  "Lemon Grove" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 465
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 60
+    }
+  ],
+  "Laguna‐Pine  Valley" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 0
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 0
+    }
+  ],
+  "Santee" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 430
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 42
+    }
+  ],
+  "Peninsula" : [
+    {
+      "STD" : "chlamydia",
+      "value" : 662
+    },
+    {
+      "STD" : "syphillis",
+      "value" : 0
+    },
+    {
+      "STD" : "AIDS",
+      "value" : 0
+    },
+    {
+      "STD" : "gonorrhea",
+      "value" : 101
+    }
+  ],
+}
