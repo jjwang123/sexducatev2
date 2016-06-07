@@ -209,9 +209,6 @@ function makePlannedParenthoodMap(){
       accessToken: 'pk.eyJ1IjoicGlhbXNpcmkiLCJhIjoiY2lvYzQxcWVjMDRocncxa3FuMDc0a2luZCJ9.Kl8iSrgUHvoCxyN4BCiTuw'
   }).addTo(mymap);
 
-  // var svg = d3.select(map.getPanes().overlayPane).append("svg"),
-  //     g = svg.append("g").attr("class", "leaflet-zoom-hide");
-
   var content;
 
   content = '<h3>Mission Bay Parker Center<\/h3>' +
