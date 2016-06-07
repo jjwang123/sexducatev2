@@ -20,12 +20,142 @@ $.fn.scrollView = function () {
 }
 
 getGeographySTD = function(geography) {
-  d3.json("https://github.com/jjwang123/sexducatev2/blob/master/public/data/chlamydia.json", function(err, data) {
+  d3.json("/data/STD.json", function(err, data) {
     if (err) {
       console.log(err);
       return;
     }
-    makeDonutChart(data);
+
+    if(geography == "Alpine") {
+      makeDonutChart(data.Alpine);
+    }
+    if(geography == "Central San Diego") {
+      makeDonutChart(data.CentralSanDiego);
+    }
+    if(geography == "Pendleton") {
+      makeDonutChart(data.Pendleton);
+    }
+    if(geography == "Poway") {
+      makeDonutChart(data.Poway);
+    }
+    if(geography == "Harbison Crest/El Cajon") {
+      makeDonutChart(data.HarbisonCrestElCajon);
+    }
+    if(geography == "La Mesa") {
+      makeDonutChart(data.LaMesa);
+    }
+    if(geography == "Mountain Empire") {
+      makeDonutChart(data.MountainEmpire);
+    }
+    if(geography == "Carlsbad") {
+      makeDonutChart(data.Carlsbad);
+    }
+    if(geography == "North Inland Region") {
+      makeDonutChart(data.NorthInlandRegion);
+    }
+    if(geography == "South Bay") {
+      makeDonutChart(data.SouthBay);
+    }
+    if(geography == "Pauma") {
+      makeDonutChart(data.Pauma);
+    }
+    if(geography == "North Coastal Region") {
+      makeDonutChart(data.NorthCoastalRegion);
+    }
+    if(geography == "Vista") {
+      makeDonutChart(data.Vista);
+    }
+    if(geography == "Kearny Mesa") {
+      makeDonutChart(data.KearnyMesa);
+    }
+    if(geography == "San Dieguito") {
+      makeDonutChart(data.SanDieguito);
+    }
+    if(geography == "Coronado") {
+      makeDonutChart(data.Coronado);
+    }
+    if(geography == "Central Region") {
+      makeDonutChart(data.CentralRegion);
+    }
+    if(geography == "Valley Center") {
+      makeDonutChart(data.ValleyCenter);
+    }
+    if(geography == "Miramar") {
+      makeDonutChart(data.Miramar);
+    }
+    if(geography == "Fallbrook") {
+      makeDonutChart(data.Fallbrook);
+    }
+    if(geography == "Ramona") {
+      makeDonutChart(data.Ramona);
+    }
+    if(geography == "Sweetwater") {
+      makeDonutChart(data.Sweetwater);
+    }
+    if(geography == "Spring Valley") {
+      makeDonutChart(data.SpringValley);
+    }
+    if(geography == "Lakeside") {
+      makeDonutChart(data.Lakeside);
+    }
+    if(geography == "Palomar‐Julian") {
+      makeDonutChart(data.PalomarJulian);
+    }
+    if(geography == "El Cajon") {
+      makeDonutChart(data.ElCajon);
+    }
+    if(geography == "Jamul") {
+      makeDonutChart(data.Jamul);
+    }
+    if(geography == "Anza‐Borrego Springs") {
+      makeDonutChart(data.AnzaBorregoSprings);
+    }
+    if(geography == "Mid‐City") {
+      makeDonutChart(data.MidCity);
+    }
+    if(geography == "Del Mar‐Mira Mesa") {
+      makeDonutChart(data.DelMarMiraMesa);
+    }
+    if(geography == "North San Diego") {
+      makeDonutChart(data.NorthSanDiego);
+    }
+    if(geography == "Escondido") {
+      makeDonutChart(data.Escondido);
+    }
+    if(geography == "East Region") {
+      makeDonutChart(data.EastRegion);
+    }
+    if(geography == "San Marcos") {
+      makeDonutChart(data.SanMarcos);
+    }
+    if(geography == "Chula Vista") {
+      makeDonutChart(data.ChulaVista);
+    }
+    if(geography == "Elliott-Navajo") {
+      makeDonutChart(data.ElliottNavajo);
+    }
+    if(geography == "Coastal") {
+      makeDonutChart(data.Coastal);
+    }
+    if(geography == "University") {
+      makeDonutChart(data.University);
+    }
+    if(geography == "South Region") {
+      makeDonutChart(data.SouthRegion);
+    }
+    if(geography == "Lemon Grove") {
+      makeDonutChart(data.LemonGrove);
+    }
+    if(geography == "Laguna‐Pine  Valley") {
+      makeDonutChart(data.LagunaPineValley);
+    }
+    if(geography == "Santee") {
+      makeDonutChart(data.Santee);
+    }
+    if(geography == "Peninsula") {
+      makeDonutChart(data.Peninsula);
+    }
+    // makeDonutChart(data);
     // if(data.length > 0)
       $("#donutChartModal").modal()
   });
@@ -36,8 +166,8 @@ makeDonutChart = function(data) {
       height = 600,
       radius = Math.min(width, height) / 2;
 
-  var max = d3.max( data.map(function(d){ return parseInt(d.total); }) );
-  var sum = d3.sum( data.map(function(d){ return parseInt(d.total); }) );
+  var max = d3.max( data.map(function(d){ return parseInt(d.value); }) );
+  var sum = d3.sum( data.map(function(d){ return parseInt(d.value); }) );
 
   var color = d3.scale.category20b();
 
@@ -59,7 +189,7 @@ makeDonutChart = function(data) {
     .sort(null)
     .startAngle(1.1 * Math.PI)
     .endAngle(3.1 * Math.PI)
-    .value(function(d) { return d.total; });
+    .value(function(d) { return d.value; });
 
   var chart = d3.select(".chart2")
     .append("svg")
@@ -103,7 +233,7 @@ makeDonutChart = function(data) {
     .attr('transform', function(d, i) {
       var height = legendRectSize + legendSpacing;
       var offset =  height * color.domain().length / 2;
-      var horz = 6 * legendRectSize;
+      var horz = 10 * legendRectSize;
       var vert = i * height - offset - 150;
       return 'translate(' + horz + ',' + vert + ')';
     })
@@ -119,13 +249,13 @@ makeDonutChart = function(data) {
     legend.append('text')                                     // NEW
       .attr('x', legendRectSize + legendSpacing)              // NEW
       .attr('y', legendRectSize - legendSpacing)              // NEW
-      .text(function(d) { return d.properties.STD; })
+      .text(function(d) { console.log(d); return d.STD; })
       .attr("transform", "translate(" + 10 + "," + -15  + ")");
 
    g.append("text")
      .attr("transform", function(d) { return "translate(" + xCoor + "," + yCoor + ")"; })
      .style("opacity", "0")
-     .style("font-size", "5em")
+     .style("font-size", "10em")
      .text(function(d) { return (Math.round(d.value/sum * 100) + "% "); });
 
 };
@@ -167,7 +297,7 @@ d3.json("https://raw.githubusercontent.com/jjwang123/sexducatev2/master/public/d
     .append("path")
     .attr("id", function(d){ return d.properties.NAME; } )
     .attr("class", "map_piece")
-    .on("click", function(d){ getGeographySTD(d.properties.NAME); } )
+    .on("click", function(d){ console.log(d); getGeographySTD(d.properties.NAME); } )
     .on("mouseover", function(d){ printInfo(d.properties.NAME, data); } );
 
 
@@ -277,6 +407,6 @@ function mapColor(name, data, max) {
 function donutColor(data) {
   var color = d3.scale.linear()
   .domain([0, 4])
-  .range(["orange", "brown"]);
+  .range(["yellow", "darkred"]);
   return color(data);
 }

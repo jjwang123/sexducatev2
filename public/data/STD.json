@@ -17,7 +17,7 @@
       "value" : 106
     }
   ],
-  "Central San Diego" : [
+  "CentralSanDiego" : [
     {
       "STD" : "chlamydia",
       "value" : 3568
@@ -71,7 +71,7 @@
       "value" : 87
     }
   ],
-  "Harbison Crest/El Cajon" : [
+  "HarbisonCrestElCajon" : [
     {
       "STD" : "chlamydia",
       "value" : 1955
@@ -89,7 +89,7 @@
       "value" : 262
     }
   ],
-  "La Mesa" : [
+  "LaMesa" : [
     {
       "STD" : "chlamydia",
       "value" : 794
@@ -107,7 +107,7 @@
       "value" : 127
     }
   ],
-  "Mountain Empire" : [
+  "MountainEmpire" : [
     {
       "STD" : "chlamydia",
       "value" : 56
@@ -143,7 +143,7 @@
       "value" : 71
     }
   ],
-  "North Inland Region" : [
+  "NorthInlandRegion" : [
     {
       "STD" : "chlamydia",
       "value" : 4561
@@ -161,7 +161,7 @@
       "value" : 370
     }
   ],
-  "South Bay" : [
+  "SouthBay" : [
     {
       "STD" : "chlamydia",
       "value" : 2527
@@ -197,7 +197,7 @@
       "value" : 0
     }
   ],
-  "North Coastal Region" : [
+  "NorthCoastalRegion" : [
     {
       "STD" : "chlamydia",
       "value" : 6004
@@ -233,7 +233,7 @@
       "value" : 121
     }
   ],
-  "Kearny Mesa" : [
+  "KearnyMesa" : [
     {
       "STD" : "chlamydia",
       "value" : 2251
@@ -251,7 +251,7 @@
       "value" : 368
     }
   ],
-  "San Dieguito" : [
+  "SanDieguito" : [
     {
       "STD" : "chlamydia",
       "value" : 396
@@ -287,7 +287,7 @@
       "value" : 32
     }
   ],
-  "Central Region" : [
+  "CentralRegion" : [
     {
       "STD" : "chlamydia",
       "value" : 10731
@@ -305,7 +305,7 @@
       "value" : 2598
     }
   ],
-  "Valley Center" : [
+  "ValleyCenter" : [
     {
       "STD" : "chlamydia",
       "value" : 101
@@ -413,7 +413,7 @@
       "value" : 86
     }
   ],
-  "Spring Valley" : [
+  "SpringValley" : [
     {
       "STD" : "chlamydia",
       "value" : 1074
@@ -449,7 +449,7 @@
       "value" : 27
     }
   ],
-  "Palomar‐Julian" : [
+  "PalomarJulian" : [
     {
       "STD" : "chlamydia",
       "value" : 0
@@ -467,7 +467,7 @@
       "value" : 0
     }
   ],
-  "El Cajon" : [
+  "ElCajon" : [
     {
       "STD" : "chlamydia",
       "value" : 1130
@@ -485,7 +485,7 @@
       "value" : 172
     }
   ],
-  "Southeastern San Diego" : [
+  "SoutheasternSanDiego" : [
     {
       "STD" : "chlamydia",
       "value" : 3551
@@ -521,7 +521,7 @@
       "value" : 0
     }
   ],
-  "Anza‐Borrego Springs" : [
+  "AnzaBorregoSprings" : [
     {
       "STD" : "chlamydia",
       "value" : 0
@@ -539,7 +539,7 @@
       "value" : 0
     }
   ],
-  "Mid‐City" : [
+  "MidCity" : [
     {
       "STD" : "chlamydia",
       "value" : 0
@@ -557,7 +557,7 @@
       "value" : 0
     }
   ],
-  "Del Mar‐Mira Mesa" : [
+  "DelMarMiraMesa" : [
     {
       "STD" : "chlamydia",
       "value" : 927
@@ -575,7 +575,7 @@
       "value" : 101
     }
   ],
-  "North San Diego" : [
+  "NorthSanDiego" : [
     {
       "STD" : "chlamydia",
       "value" : 753
@@ -629,7 +629,7 @@
       "value" : 258
     }
   ],
-  "East Region" : [
+  "EastRegion" : [
     {
       "STD" : "chlamydia",
       "value" : 5424
@@ -683,7 +683,7 @@
       "value" : 203
     }
   ],
-  "Elliott‐Navajo" : [
+  "ElliottNavajo" : [
     {
       "STD" : "chlamydia",
       "value" : 0
@@ -737,7 +737,7 @@
       "value" : 45
     }
   ],
-  "South Region" : [
+  "SouthRegion" : [
     {
       "STD" : "chlamydia",
       "value" : 7273
@@ -755,7 +755,7 @@
       "value" : 637
     }
   ],
-  "Lemon Grove" : [
+  "LemonGrove" : [
     {
       "STD" : "chlamydia",
       "value" : 465
@@ -773,7 +773,7 @@
       "value" : 60
     }
   ],
-  "Laguna‐Pine  Valley" : [
+  "LagunaPineValley" : [
     {
       "STD" : "chlamydia",
       "value" : 0
@@ -826,5 +826,5 @@
       "STD" : "gonorrhea",
       "value" : 101
     }
-  ],
+  ]
 }
