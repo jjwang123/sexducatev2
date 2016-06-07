@@ -83,12 +83,12 @@
 		<div id = "s5container">
 			<div class = "container-fluid">
 				<div class = "row" style="width:100%;">
-					<div class = "col-md-6" style="font-size:1.45em; padding: 0 5% 5% 5%;  text-align:left;">
-							<div id = "initialText">Hover over colored areas on the map to see the statistics for STD prevalence in San Diego County. The darker the area, the higher the rate of prevalence. <br>Click on an area to see more detailed statistics.</div>
-							<div id = "crimeInfoText" style="display:none;"><span class = "communityName" style="font-family:'Droid Serif', sans-serif; font-size:2em"></span><div id ="numberOfCrimes" style="font-size:6em; font-family:'Droid Serif', sans-serif"></div> Click <span class = "communityName"></span></br>to see the rate of STD prevalence in this area.</div>
+					<div class = "col-sm-7" style="font-size:1.45em; padding: 0 5% 5% 5%;  text-align:left;">
+							<!-- <div id = "initialText">Hover over colored areas on the map to see the statistics for STD prevalence in San Diego County. The darker the area, the higher the rate of prevalence. <br>Click on an area to see more detailed statistics.</div>
+							<div id = "crimeInfoText" style="display:none;"><span class = "communityName" style="font-family:'Droid Serif', sans-serif; font-size:2em"></span><div id ="numberOfCrimes" style="font-size:6em; font-family:'Droid Serif', sans-serif"></div> Click <span class = "communityName"></span></br>to see the rate of STD.</div> -->
 					</div>
-					<div class = "col-md-6" >
-						<div id="mapid1" style=" margin-top: -100px; width:100% !important; height:500px !important;"></div><br><br>
+					<div class = "col-sm-5" >
+						<div id="mapid1" style="width:100%; !important; height:400px !important;"></div><br><br>
 					</div>
 				</div>
 			</div>
@@ -291,6 +291,14 @@
 <script src="./js/index.js"></script>
 <script src="./js/leaflet.js"></script>
 <script src="./js/map.js"></script>
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet' />
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script src="http://calvinmetcalf.github.io/leaflet-ajax/dist/leaflet.ajax.min.js"></script>
+
 <script>
 	$(function(){
 		$.fn.scrollView = function () {
