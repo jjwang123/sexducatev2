@@ -158,6 +158,7 @@ getGeographySTD = function(geography) {
     // makeDonutChart(data);
     // if(data.length > 0)
       $("#donutChartModal").modal()
+      $("#donutChartModal").data("modal-content").$backdrop.css('background-color','orange')
   });
 }
 
@@ -210,7 +211,7 @@ makeDonutChart = function(data) {
     .style("fill", function(d, i) { return donutColor(i); })
     .transition()
       .ease("exp")
-      .duration(1200)
+      .duration(1250)
       .attrTween("d", tweenPie);
 
   function tweenPie(b) {
@@ -221,7 +222,7 @@ makeDonutChart = function(data) {
   var xCoor = -60;
   var yCoor = 20;
 
-  var legendRectSize = 50;
+  var legendRectSize = 55;
   var legendSpacing = 4;
 
   var legend = chart.selectAll('.legend')
@@ -249,13 +250,13 @@ makeDonutChart = function(data) {
     legend.append('text')                                     // NEW
       .attr('x', legendRectSize + legendSpacing)              // NEW
       .attr('y', legendRectSize - legendSpacing)              // NEW
-      .text(function(d) { console.log(d); return d.STD; })
+      .text(function(d) { console.log(d); return d.STD; }).style("font-size", "1.3em")
       .attr("transform", "translate(" + 10 + "," + -15  + ")");
 
    g.append("text")
      .attr("transform", function(d) { return "translate(" + xCoor + "," + yCoor + ")"; })
      .style("opacity", "0")
-     .style("font-size", "10em")
+     .style("font-size", "7em")
      .text(function(d) { return (Math.round(d.value/sum * 100) + "% "); });
 
 };
@@ -383,7 +384,7 @@ function printInfo(name, data) {
     console.log(name  + " " + data[i]);
     if( data[i].geography == name ) {
       $('#initialText').css('display', 'none');
-      $('#crimeInfoText').css('display', 'block');
+      $('#stdInfoText').css('display', 'block');
       $('.communityName').text(name);
       $('#numberOfCrimes').text(data[i].total);
     }

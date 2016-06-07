@@ -11,6 +11,15 @@
 	width:90%;
 }
 
+.modal-content {
+  /*background-color: #2e343d;*/
+	background-color: snow;
+}
+.modal-body {
+  /*background-color: #2e343d;*/
+	background-color: snow;
+}
+
 html, center
 {
 	width:100%;
