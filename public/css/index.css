@@ -1,0 +1,83 @@
+.chart {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chart2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 1200px;
+  height: 600px;
+}
+
+.chart2 .arc{
+  opacity: 0.7 !important;
+}
+
+.chart2 .arc:hover{
+  opacity: 1.0 !important;
+}
+
+.chart2 .arc:hover text{
+  opacity: 1.0 !important;
+}
+
+body {
+  background-color: snow;
+}
+
+.chart rect {
+  opacity: 0.7 !important;
+}
+
+.chart rect:hover {
+  opacity: 1.0 !important;
+}
+
+
+.arc {
+  opacity: 0.7 !important;
+}
+
+.arc:hover {
+  opacity: 1.0 !important;
+}
+
+html, body {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+svg {
+  position: relative;
+}
+
+.map_piece {
+  fill-opacity: .7 !important;
+  stroke: #fff !important;
+  stroke-width: 1px !important;
+}
+
+.map_piece:hover {
+  fill-opacity: 1.0 !important;  
+}
+
+
+/*
+path {
+  fill: #000;
+  fill-opacity: .6;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+path:hover {
+  fill: brown;
+  fill-opacity: .7;
+}
+/*
+
+

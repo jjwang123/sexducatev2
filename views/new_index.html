@@ -1,0 +1,120 @@
+
+<center>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-left">
+					<li id = "li2"><a href="#link1">link 1</a></li>
+					<li id = "li3"><a href="#link2">link 2</a></li>
+					<li id = "li4"><a href="#link3">link 3</a></li>
+
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+
+	<div id = "background">
+		<div id = "section0">
+			<div id = "s0container">
+				<div id = "name">
+					<!-- <img src="/images/arrestme_logo.jpg" style="height:1em; margin-right:5%; display:inline">-->Sexducate Yourself</div>
+				<div id = "subtext">fjwefwlkdfsljdkfsdkjf<!--Feel free to click on an agency in the bar graph to learn which top charge descriptions took place.-->
+				<br><br></div>
+				<a type = "button" class = "btn btn-secondary" id = "gobutton">LET'S GO</a>
+			</div>
+		</div>
+	</div>
+
+	<div id = "section2" class = "section">
+		<div id = "s2container">
+			<!-- <h2>Total Crimes Committed by Hour</h2> -->
+			<br>
+			<center>
+		</center>
+		</div>
+	</div>
+	<div id = "section1" class = "section">
+		<div id = "s1container">
+			<h2>STD rates in San Diego Counties</h2>
+			<h3></h3>
+			<div class = "container-fluid">
+				<div class = "row" style="width:100%;">
+					<div class = "col-md-6" style="font-size:1.45em; padding: 0 5% 5% 5%;  text-align:left;">
+							<div id = "initialText">Hover over colored areas on the map to see the number of crimes in that area. Darker reds mean more crimes in that area, while greyed-out areas on the map means that there was not enough information available. Click on an area to see the top 5 crimes. </div>
+							<div id = "crimeInfoText" style="display:none;"><span class = "communityName" style="font-family:'Port Lligat Slab', sans-serif; font-size:2em"></span><div id ="numberOfCrimes" style="font-size:6em; font-family:'Port Lligat Slab', sans-serif"></div> Click <span class = "communityName"></span></br>to see the top five crimes.</div>
+					</div>
+					<div class = "col-md-6" >
+						<div id="mapid" style="width:100% !important; height:500px !important;"></div><br><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id = "section3" class = "section">
+		<div id = "s3container">
+			<h2>Prevention</h2>
+			<h3>September 20, 2013 to March 19, 2014</h3>
+			<div class = "container-fluid">
+				<div class = "row" style="width:100%;">
+					<div class = "col-md-6" style="font-size:1.45em; padding: 0 5% 5% 5%;  text-align:left;">
+							<div id = "initialText">Hover over colored areas on the map to see the number of crimes in that area. Darker reds mean more crimes in that area, while greyed-out areas on the map means that there was not enough information available. Click on an area to see the top 5 crimes. </div>
+							<div id = "crimeInfoText" style="display:none;"><span class = "communityName" style="font-family:'Port Lligat Slab', sans-serif; font-size:2em"></span><div id ="numberOfCrimes" style="font-size:6em; font-family:'Port Lligat Slab', sans-serif"></div> Click <span class = "communityName"></span></br>to see the top five crimes.</div>
+					</div>
+					<div class = "col-md-6" >
+						<div id="mapid" style="width:100% !important; height:500px !important;"></div><br><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</center>
+<div class="modal fade" id="donutChartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <center><h2 class="modal-title" id="exampleModalLabel" style="font-size:3em">Top 5 Crimes in <span class="communityName"></span></h2></center>
+
+            </div>
+            <div class="modal-body">
+              <center>
+								<div class="chart2"></div>
+							</center>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/d3.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/leaflet.js"></script>
+<script src="./js/map.js"></script>
+<script>
+	$(function(){
+		$.fn.scrollView = function () {
+		  return this.each(function () {
+		    $('html, body').animate({
+		      scrollTop: $(this).offset().top
+		    }, 500);
+		  });
+		}
+		$('#gobutton').click(function(){
+			$('#section1').scrollView();
+		});
+	});
+
+</script>
