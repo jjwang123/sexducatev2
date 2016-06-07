@@ -18,9 +18,8 @@ html, center
 }
 body
 {
-	/*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);*/
-	background-color: #ffffff;
-	font-family: 'Slabo 27px', sans-serif;
+	background-color: #2e343d;
+	font-family: 'Futura-CondensedMedium';
 	color:#000000;
 	width: 100%;
 	height:100%;
@@ -33,7 +32,7 @@ a, a:visited, a:active{
 	text-decoration: none;
 }
 a:hover{
-	color:#4e4e4e;
+	color:#c15a5b;
 	text-decoration: none;
 }
 #background{
@@ -50,11 +49,12 @@ a:hover{
 	background-color:#DE1B1B;
 }
 .btn{
-	border: 2px #4e4e4e solid;
+	border: 2px #fff solid;
 	opacity:.9;
 	font-size:1.5em;
 	border-radius: 5px;
-	background-color: #ffffff;
+	color:#fff;
+	background-color: #c15a5b;
 	font-weight:bold;
 }
 #section0{
@@ -71,8 +71,8 @@ a:hover{
 	overflow: auto;
 }
 #section1{
-	background-color: #f7f7f7;
-	color: black;
+	background-color: #2e343d;
+	color: #fff;
 	vertical-align: middle;
 	font-size: 1.5em;
 	padding-top: 5%;
@@ -98,7 +98,9 @@ a:hover{
 }
 
 #s1container h2 {
-	text-shadow: 2px 2px lightgrey;
+	font-size: 60px;
+	margin-top: 0.5em;
+	padding-bottom: 1em;
 }
 
 #s1container h3 {
@@ -115,12 +117,12 @@ a:hover{
 }*/
 
 h1{
-	font-family: 'Port Lligat Slab', sans-serif;
+	font-family: 'Futura-CondensedMedium', sans-serif;
 	font-size: 4em;
 	font-weight: lighter;
 }
 h2{
-	font-family: 'Port Lligat Slab', sans-serif;
+	font-family: 'Futura-CondensedMedium', sans-serif;
 	font-size: 2em;
 	font-weight: lighter;
 }
@@ -190,42 +192,139 @@ h2{
 	text-align: center;
 }
 
-
-
-
-
-
-
-#profile{
-	height: 80%;
-	margin: auto;
-}
-#profile img{
+#section5{
+	background-image: url('/images/sexducate.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 100%;
-	margin: auto;
+	width: 100%;
+	background-color:#2B2B2B;
+	color:#fff;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+#s5container{
+	position: relative;
+	width:80%;
+	text-align: center;
+	vertical-align: middle;
+	overflow: auto;
 }
 
-.hidden {
-  display: none;
+#section6{
+	background-image: url('/images/contraceptives.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	background-color:#2B2B2B;
+	color:#fff;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+#s6container{
+	position: relative;
+	width:80%;
+	text-align: center;
+	vertical-align: middle;
+	overflow: auto;
+}
+#section6{
+	background-image: url('/images/contraceptives.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	background-color:#2B2B2B;
+	color:#fff;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+#s6container{
+	position: relative;
+	width:80%;
+	text-align: center;
+	vertical-align: middle;
+	overflow: auto;
 }
 
-.visuallyhidden {
-  opacity: 0;
+#section7{
+	background-color: #2e343d;
+	color: #fff;
+	vertical-align: middle;
+	font-size: 1.5em;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	overflow: auto;
 }
 
+#s7container{
+	position: relative;
+	width:100%;
+	text-align: center;
+	vertical-align: middle;
+	overflow: auto;
+	padding-bottom: 3em;
+}
+
+#s7container h2 {
+	margin-top: -5px;
+	font-size: 40px;
+	padding-bottom: 0.1em;
+}
+
+#s7container h3 {
+	color: #515151;
+}
+
+#section7 h3 {
+	padding-top: 0.2em;
+	padding-bottom: 0.5em;
+}
+
+#success{
+	padding-bottom: 1em;
+}
+.form-control {
+	height: 50px;
+}
+.form-group {
+	padding: 2px;
+}
+
+#message {
+	height: 209px;
+}
+#section8{
+	background-image: url('/images/footer.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-color:#2B2B2B;
+	color:#fff;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+#s8container{
+	position: relative;
+	width:100%;
+	text-align: center;
+	vertical-align: middle;
+	overflow: auto;
+	padding-bottom: 6em;
+	margin-bottom: -10px;
+}
 #name
 {
-	color: black;
-	text-shadow: 2px 2px lightgrey;
+	color: #fff;
 	font-size: 6em;
-	font-family: 'Port Lligat Slab', sans-serif;
+	font-family: 'Futura-CondensedMedium', sans-serif;
+	text-shadow: -1px 0 #c15a5b, 0 2px #c15a5b, 2px 0 #c15a5b, 0 -1px #c15a5b;
 	font-weight: lighter;
 	width: 100%;
 	height: auto;
 	margin: auto;
-
-
-	margin: auto;
+	margin-top: 1.6em;
 }
 
 #namesmaller.moveright
@@ -250,7 +349,7 @@ h2{
 
 #subtext
 {
-	font-family: 'Slabo 27px', 'MFYueHei', sans-serif;
+	font-family: 'Futura', 'MFYueHei', sans-serif;
 	color: black;
 	font-weight: lighter;
 	font-size: 30px;
